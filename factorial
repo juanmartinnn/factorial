@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int a,b,factorial;
+
+int fact()
+{
+    factorial=1;
+    for (b=1 ; b<=a ; b++)
+    {
+         factorial=b*factorial;
+    }
+
+    cout << "El factorial es " <<factorial<<endl;
+
+    return 0;
+}
+
+int main ()
+{
+    cout << "Ingrese su numero " <<endl;
+    cin >> a;
+    fact();
+}
